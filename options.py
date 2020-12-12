@@ -32,7 +32,7 @@ class Options(object):
                             help='seed for random initialize, 0 to use current time.')
         parser.add_argument('--visdom_env', type=str, default="main", help='visdom env.')
         parser.add_argument('--visdom_port', type=int, default=8097, help='visdom port.')
-        parser.add_argument('--visdom_display_id', type=int, default=1,
+        parser.add_argument('--visdom_display_id', type=int, default=0,
                             help='set value larger than 0 to display with visdom.')
 
         parser.add_argument('--data_root', default="./datasets/CKPlus", help='paths to data set.')
