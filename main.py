@@ -6,9 +6,6 @@ Created on Dec 13, 2018
 from options import Options
 from solvers import create_solver
 
-
-
-
 if __name__ == '__main__':
     opt = Options().parse()
 
