@@ -35,7 +35,7 @@ class Options(object):
         parser.add_argument('--visdom_display_id', type=int, default=1,
                             help='set value larger than 0 to display with visdom.')
 
-        parser.add_argument('--data_root', default="datasets/CKPlus", help='paths to data set.')
+        parser.add_argument('--data_root', default="./datasets/CKPlus", help='paths to data set.')
         parser.add_argument('--train_csv', type=str, default="train_ids.csv", help='train images paths')
         parser.add_argument('--imgs_dir', type=str, default="imgs", help='path to image')
         parser.add_argument('--imgs_res_dir', type=str, default="imgs_res", help='path to average residual image')
